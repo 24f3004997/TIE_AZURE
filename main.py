@@ -318,7 +318,6 @@
 #     }
 from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from coach_engine import CoachEngine # <-- Add this
@@ -350,7 +349,6 @@ from stream1_content import ContentEngine
 from stream2_vocal import AzureSpeechEngine as VocalEngine
 from stream3_interaction import InteractionEngine
 from stream4_video import VideoEngine
-from fastapi import FastAPI
 from fastapi.responses import FileResponse
 
 # Initialize Engines
@@ -705,5 +703,5 @@ async def pdf_endpoint(data: dict):
     pdf_engine.generate_report(data, path)
     return FileResponse(path, filename="TIE_Analysis.pdf")
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+#if __name__ == "__main__":
+ #   uvicorn.run(app, host="0.0.0.0", port=8000)
