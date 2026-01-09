@@ -1,3 +1,4 @@
+
 fastapi
 uvicorn
 python-multipart
@@ -8,5 +9,5 @@ numpy
 openai-whisper
 praat-parselmouth
 reportlab
-pymongo
-certifi
+google-generativeai
+azure-cognitiveservices-speech
