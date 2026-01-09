@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env
+.env
+
+# Runtime / generated files
+users.json
+session_history.json
+
+# OS
+.DS_Store
+Thumbs.db
