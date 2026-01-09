@@ -433,10 +433,10 @@ def save_json(filename, data):
 # --- ROUTES: PAGES ---
 
 # 1. Root / Landing Page (FIXED PATH)
-@app.get("/")
-async def read_root():
-    # Points to frontend/index.html now
-    return FileResponse(BASE_DIR / "index.html")
+ #   @app.get("/")
+ #   async def read_root():
+  #      # Points to frontend/index.html now
+   #     return FileResponse(BASE_DIR / "index.html")
 
 # 2. Auth Pages
 # @app.get("/login")
