@@ -1,5 +1,5 @@
 # 🎓 TIE: Teacher Insight Engine
-> **Microsoft Imagine Cup 2025** > *Empowering Educators with Multimodal AI Analysis*
+> **Microsoft Imagine Cup 2026** > *Empowering Educators with Multimodal AI Analysis*
 
 ![Project Status](https://img.shields.io/badge/Status-Prototype_Ready-success?style=flat-square)
 ![Tech Stack](https://img.shields.io/badge/AI-Azure_Speech_%7C_OpenCV_%7C_NLP-blue?style=flat-square)
