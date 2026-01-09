@@ -324,6 +324,8 @@ from coach_engine import CoachEngine # <-- Add this
 import shutil
 import os
 import json
+import uvicorn
+
 import asyncio
 import subprocess
 from pathlib import Path
@@ -701,3 +703,6 @@ async def pdf_endpoint(data: dict):
     path = "TIE_Report.pdf"
     pdf_engine.generate_report(data, path)
     return FileResponse(path, filename="TIE_Analysis.pdf")
+
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=8000)
