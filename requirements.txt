@@ -8,5 +8,5 @@ google-generativeai
 numpy
 pydantic
 requests
-torch
+
 
