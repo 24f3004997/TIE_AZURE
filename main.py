@@ -347,6 +347,9 @@ from stream1_content import ContentEngine
 from stream2_vocal import AzureSpeechEngine as VocalEngine
 from stream3_interaction import InteractionEngine
 from stream4_video import VideoEngine
+from fastapi import FastAPI
+from fastapi.responses import FileResponse
+
 # Initialize Engines
 pdf_engine = PDFGenerator()
 content_engine = ContentEngine()
@@ -356,6 +359,10 @@ video_engine = VideoEngine()
 coach_engine = CoachEngine() # <-- Add this
 
 app = FastAPI()
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    return FileResponse("favicon.ico")
+
 
 # --- STARTUP CHECK: FORCE CREATE FILES ---
 # This runs once when server starts to ensure files exist

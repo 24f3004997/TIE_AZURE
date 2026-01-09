@@ -3238,5 +3238,60 @@
             "interaction_diff": -19,
             "energy_diff": 0
         }
+    },
+    {
+        "timestamp": "Jan 09, 2026",
+        "clarity": {
+            "transcription": "Hassar mehak saval puchna chahta thaki I see Kiki shamta ko bohot badara hai Jab Ki kuch lo kehte hai Ki hai aapko swabhavi krupse or adik bewakoof banara hai is parapka kya kehna hai Mera mera kehna hai Ki main doosre kathanse bilkul sehmat yehame bewakoof banata hai ekdin nesa aega jabham bohot sare angreji shabdoki spelling bhool jayenge haisa Isle hai kyungi autocorrect to say sahih kardeta hai or kaibar message bhejne Ki baat koi koi puchhta hai Ki aapka kya matlabta The Maine paya Ki autocorrect news sahih kardiya hai or vastav. To dekhiye Mai aapko apni jeevan kahani bata satahi Jahan jante hai Ki mere guru kaha karte theki violin bajate same aapke pas kitab nahi honi chahi main violin bajata ho or many kafi sameta kuska palan Kia lekin uske baad jab humne kitab rakhna shuru kiya to.",
+            "wpm": 47,
+            "clarity_score": 100,
+            "complexity_score": 100,
+            "depth_score": 76,
+            "topic_level": "Advanced",
+            "filler_count": 0
+        },
+        "vocal": {
+            "avg_pitch": 71,
+            "delivery_status": "Professional (Azure Verified)",
+            "fluency_score": 78.0,
+            "completeness_score": 100.0,
+            "emotion_detected": "Professional",
+            "emotional_intensity": 71
+        },
+        "interaction": {
+            "interaction_ratio_percent": 0,
+            "class_mode": "Lecture (Low Interaction)"
+        },
+        "video": {
+            "eye_contact_score": 76,
+            "gesture_energy_score": 100,
+            "distraction_events": 2
+        },
+        "distraction": {
+            "events": 2,
+            "focus_score": 90,
+            "status": "Good Focus"
+        },
+        "speech": {
+            "fillers": 0,
+            "status": "Clean"
+        },
+        "cognitive": {
+            "complexity": 100,
+            "depth": 76,
+            "level": "Advanced"
+        },
+        "sentiment": {
+            "emotion": "Professional",
+            "intensity": 71,
+            "status": "Good"
+        },
+        "overall_score": 55,
+        "comparison": {
+            "overall_diff": 13,
+            "clarity_diff": 40,
+            "interaction_diff": -30,
+            "energy_diff": 0
+        }
     }
 ]
