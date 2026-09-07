@@ -63,6 +63,6 @@ The goal is to make high-quality teaching feedback more accessible, consistent a
 
 This repository contains the Azure-oriented TIE implementation. Other prototype components are maintained separately during development.
 
-## Team
+## Team Work
 
 Built as a student-led AI/EdTech project focused on multimodal analysis, product design and practical deployment.
