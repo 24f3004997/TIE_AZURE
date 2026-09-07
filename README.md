@@ -8,6 +8,15 @@
 
 TIE is a privacy-conscious teaching analytics platform that turns classroom or lecture recordings into structured feedback for educators.
 
+## 👥 TEAM INFERNOX
+
+| Name | Role |
+|---|---|
+| Vishwa Prakash | Team Leader & Researcher |
+| Priyam Tiwari | Data Pipeline Leader |
+| Shreya Singh | AI Logic Leader |
+| Vaishali | Frontend UI Leader |
+
 ## What it does
 
 TIE combines **audio, video, and language signals** to help educators understand how they deliver a session.
