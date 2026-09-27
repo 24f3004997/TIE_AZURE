@@ -1,4 +1,4 @@
-# TIE — Teacher Insight Engine
+# TIE — Teacher Insight Engine.
 > **Multimodal AI for actionable teaching feedback**
 
 ## 🏆 Recognition
